@@ -1,11 +1,11 @@
-import './TodoList.css'
+import './TodoList.css';
 
 function TodoList({ children }) {
-    return (
-      <ul>
-        {children}
-      </ul>
-    );
-  }
-  
-  export { TodoList };
+  return (
+    <ul className="TodoList">
+      {children}
+    </ul>
+  );
+}
+
+export { TodoList };
